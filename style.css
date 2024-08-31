@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.7) url('food.jpeg') ;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.container h1 {
+    font-family: 'Playfair Display', serif;
+    color: orangered;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 2.5em;
+}
+
+.navbar {
+    flex: 1;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.navbar ul li {
+    padding: 18px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 4px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s;
+    font-weight: 700;
+}
+
+.navbar ul li a:hover {
+    box-shadow: 0 3px 20px orangered inset, 0 3px 20px orangered inset;
+}
+
+.navbar .reservation {
+    padding: 8px;
+    background-color: orangered;
+    border-radius: 5px;
+}
+
+.content {
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.content h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.1em;
+}
+
+.search {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.search input {
+    outline: none;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 1em;
+}
+
+.submit {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.submit a {
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 25px;
+    background-color: orangered;
+    border-radius: 5px;
+    font-weight: 700;
+}
